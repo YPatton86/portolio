@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    width:373px;
+    height:300px;
+    overflow: hidden;
+    opacity:70%
+
+}
+
+.card:hover .portfolio{
+    opacity:0.3;
+}
+.card:hover .card-img-ovelay{
+    opacity: 1.0;
+
+}
+
+.card-body {
+    opacity:0;
+    color: rgb(105,119,122);
+    text-shadow: 0 2px 5px grey;
+    ;
+}
+.bg-custom{
+background-color: #bad7df;
+
+}
+
+
+.h1title, .h1contact {
+    font-family: 'Rowdies', cursive;
+    font-size: 3rem;
+}
+.h2title, .h2contact {
+    font-family: 'Rowdies', cursive;
+    font-size: 2rem;
+}
+
+.pcontact {
+    font-family: 'Rowdies', cursive;
+        font-size: 1rem;
+}
+.iconSize{
+    font-size: 5rem;
+}
