@@ -4,19 +4,15 @@
 }
 
 .portfolio {
-    width:373px;
-    height:300px;
-    overflow: hidden;
+    overflow:hidden;
     opacity:70%
-
 }
 
 .card:hover .portfolio{
     opacity:0.3;
 }
-.card:hover .card-img-ovelay{
+.card:hover .card-body{
     opacity: 1.0;
-
 }
 
 .card-body {
